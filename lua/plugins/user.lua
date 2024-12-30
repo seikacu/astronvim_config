@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- You can also add or configure plugins by creating files in this `plugins/` folder
 -- Here are some examples:
@@ -23,18 +23,49 @@ return {
     opts = function(_, opts)
       -- customize the dashboard header
       opts.section.header.val = {
-        " █████  ███████ ████████ ██████   ██████",
-        "██   ██ ██         ██    ██   ██ ██    ██",
-        "███████ ███████    ██    ██████  ██    ██",
-        "██   ██      ██    ██    ██   ██ ██    ██",
-        "██   ██ ███████    ██    ██   ██  ██████",
-        " ",
-        "    ███    ██ ██    ██ ██ ███    ███",
-        "    ████   ██ ██    ██ ██ ████  ████",
-        "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
-        "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
-        "    ██   ████   ████   ██ ██      ██",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"NNNNNNNN        NNNNNNNN                                     XXXXXXX       XXXXXXX                  kkkkkkkk           ",
+"N:::::::N       N::::::N                                     X:::::X       X:::::X                  k::::::k           ",
+"N::::::::N      N::::::N                                     X:::::X       X:::::X                  k::::::k           ",
+"N:::::::::N     N::::::N                                     X::::::X     X::::::X                  k::::::k           ",
+"N::::::::::N    N::::::N    eeeeeeeeeeee       ooooooooooo   XXX:::::X   X:::::XXX  aaaaaaaaaaaaa    k:::::k    kkkkkkk",
+"N:::::::::::N   N::::::N  ee::::::::::::ee   oo:::::::::::oo    X:::::X X:::::X     a::::::::::::a   k:::::k   k:::::k ",
+"N:::::::N::::N  N::::::N e::::::eeeee:::::eeo:::::::::::::::o    X:::::X:::::X      aaaaaaaaa:::::a  k:::::k  k:::::k  ",
+"N::::::N N::::N N::::::Ne::::::e     e:::::eo:::::ooooo:::::o     X:::::::::X                a::::a  k:::::k k:::::k   ",
+"N::::::N  N::::N:::::::Ne:::::::eeeee::::::eo::::o     o::::o     X:::::::::X         aaaaaaa:::::a  k::::::k:::::k    ",
+"N::::::N   N:::::::::::Ne:::::::::::::::::e o::::o     o::::o    X:::::X:::::X      aa::::::::::::a  k:::::::::::k     ",
+"N::::::N    N::::::::::Ne::::::eeeeeeeeeee  o::::o     o::::o   X:::::X X:::::X    a::::aaaa::::::a  k:::::::::::k     ",
+"N::::::N     N:::::::::Ne:::::::e           o::::o     o::::oXXX:::::X   X:::::XXXa::::a    a:::::a  k::::::k:::::k    ",
+"N::::::N      N::::::::Ne::::::::e          o:::::ooooo:::::oX::::::X     X::::::Xa::::a    a:::::a k::::::k k:::::k   ",
+"N::::::N       N:::::::N e::::::::eeeeeeee  o:::::::::::::::oX:::::X       X:::::Xa:::::aaaa::::::a k::::::k  k:::::k  ",
+"N::::::N        N::::::N  ee:::::::::::::e   oo:::::::::::oo X:::::X       X:::::X a::::::::::aa:::ak::::::k   k:::::k ",
+"NNNNNNNN         NNNNNNN    eeeeeeeeeeeeee     ooooooooooo   XXXXXXX       XXXXXXX  aaaaaaaaaa  aaaakkkkkkkk    kkkkkkk",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       ",
+"                                                                                                                       "
       }
+
+      -- {
+      --   " █████  ███████ ████████ ██████   ██████",
+      --   "██   ██ ██         ██    ██   ██ ██    ██",
+      --   "███████ ███████    ██    ██████  ██    ██",
+      --   "██   ██      ██    ██    ██   ██ ██    ██",
+      --   "██   ██ ███████    ██    ██   ██  ██████",
+      --   " ",
+      --   "    ███    ██ ██    ██ ██ ███    ███",
+      --   "    ████   ██ ██    ██ ██ ████  ████",
+      --   "    ██ ██  ██ ██    ██ ██ ██ ████ ██",
+      --   "    ██  ██ ██  ██  ██  ██ ██  ██  ██",
+      --   "    ██   ████   ████   ██ ██      ██",
+      -- }
       return opts
     end,
   },
